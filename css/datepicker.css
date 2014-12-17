@@ -1,0 +1,177 @@
+/*
+ * Styling for a js.ui.DatePicker.
+ *
+ * @author pavex@ines.cz (Pavel Machacek)
+ */
+
+
+.jx-popuppicker,
+.jx-popuppicker.jx-datepicker  {
+	position:absolute;
+}
+
+
+.jx-datepicker,
+.jx-datepicker th,
+.jx-datepicker td {
+	font:12px Arial, sans-serif;
+}
+.jx-datepicker th,
+.jx-datepicker td {
+	text-align:center;
+	vertical-align:middle;
+}
+.jx-datepicker {
+	-moz-user-focus:normal;
+	-moz-user-select:none;
+	position:relative;
+	float:left;
+	/*width:320px;*/
+	margin-top:5px;
+	color:#000;
+	background-color:#EDF2F7;
+	cursor:default;
+	border:1px solid gray;
+	font:12px Arial, sans-serif;
+}
+.jx-datepicker.jx-datepicker-border {
+	padding:5px 5px 5px 5px;
+	border-radius:4px;
+	border:0;
+	box-shadow:1px 1px 6px gray;
+}
+.jx-datepicker .jx-picker-content {
+	display:block;
+	overflow:auto;
+	background-color:#FFFFFF;
+}
+.jx-datepicker .jx-datepicker-calendar {
+	overflow:auto;
+}
+.jx-datepicker .jx-datepicker-col {
+	float:left;
+/*	width:272px;*/
+	overflow:auto;
+}
+.jx-datepicker .jx-datepicker-col.jx-datepicker-additional-month {
+	margin-left:20px;
+}
+.jx-datepicker .jx-datepicker-head {
+	overflow:auto;
+	padding:0;
+}
+.jx-datepicker .jx-datepicker-head span {
+	display:block;
+	padding:5px 30px;
+	text-align:center;
+	white-space:nowrap;
+	font-size:120%;
+	font-weight:bold;
+}
+.jx-datepicker .jx-datepicker-btn {
+}
+.jx-datepicker .jx-datepicker-btn.jx-datepicker-previousMonth {
+	float:left;
+}
+.jx-datepicker .jx-datepicker-btn.jx-datepicker-nextMonth {
+	float:right;
+}
+.jx-datepicker .jx-datepicker-btn.jx-datepicker-today {
+	float:left;
+}
+.jx-datepicker .jx-datepicker-btn.jx-datepicker-none {
+	float:right;
+}
+.jx-datepicker .jx-datepicker-btn.jx-datepicker-done {
+	float:right;
+}
+.jx-datepicker table {
+	display:inline-block;
+	border-collapse:collapse;
+	padding:8px 0 0 0;
+}
+.jx-datepicker table th,
+.jx-datepicker table td {
+	padding:0;
+	margin:0;
+	width:34px;
+	height:32px;
+}
+.jx-datepicker table th {
+	font-size:80%;
+}
+.jx-datepicker thead th {
+	color:#808080;
+}
+.jx-datepicker tbody td {
+	background-color:#fff;
+	border:1px solid #fff;
+}
+.jx-datepicker tbody td.jx-datepicker-wkend-start,
+.jx-datepicker tbody td.jx-datepicker-wkend-end {
+	background-color:#eee;
+	font-weight:bold;
+}
+.jx-datepicker tbody td.jx-datepicker-other-month {
+	color:#888;
+}
+.jx-datepicker tbody td.jx-datepicker-out {
+	color:#C0C0C0;
+	background-color:#F0F0F0;
+}
+.jx-datepicker tbody td.jx-datepicker-date {
+	cursor:pointer;
+}
+.jx-datepicker tbody td.jx-datepicker-date:hover {
+	background-color:#adbbc7;
+}
+.jx-datepicker tbody td.jx-datepicker-today {
+	background:#9ab;
+	font-weight:bold !important;
+	border-color:#246 #9bd #9bd #246;
+	color:#fff;
+}
+.jx-datepicker tbody td.jx-datepicker-hint {
+	cursor:help;
+}
+.jx-datepicker tbody td.jx-datepicker-selected {
+/*	background:#c3d9ff;*/
+	background:#4E88E0;
+	color:#fff;
+	font-weight:bold;
+}
+.jx-datepicker tbody td.jx-datepicker-other-month.jx-datepicker-selected {
+	background:#ABC7F1;
+}
+.jx-datepicker tbody td.jx-datepicker-hint {
+	/*background-image:url(data:image/gif;base64,R0lGODlhBAAEAIMAAAAAAMwAAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAMAAAMALAAAAAAEAAQAAAQJMEgxRxBj4BwBADs=);
+	background-image: url(data:image/gif;base64,R0lGODlhBQAGAIMAAAAAAJmZmf///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAMAAAMALAAAAAAFAAYAAAQKMMgw6KgXX5u7jQA7);
+	background-repeat:no-repeat;
+	background-position:4px 4px;
+	*/
+	text-decoration:underline;
+}
+.jx-datepicker .jx-datepicker-foot {
+	display:block;
+	overflow:auto;
+	padding:6px 0 0 0;
+}
+
+
+/*
+.jx-datepicker tbody td.jx-datepicker-selected {
+	background:#F9670D;
+}
+.jx-datepicker tbody td.jx-datepicker-selected span {
+	display:block;
+	height:28px;
+	line-height:28px;
+	border:1px red solid;
+}
+*/
+
+/*********/
+
+
+
+/**/

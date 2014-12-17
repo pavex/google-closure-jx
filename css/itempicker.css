@@ -1,0 +1,424 @@
+/*
+ * Styling for a jx.ui.WhisperPicker.
+ *
+ * @author pavex@ines.cz (Pavel Machacek)
+ */
+
+
+.jx-popuppicker,
+.jx-popuppicker.jx-picker ,
+.jx-popuppicker.jx-itempicker  {
+	position:absolute;
+}
+
+
+.jx-picker {
+	-moz-user-focus:normal;
+	-moz-user-select:none;
+	position:relative;
+	float:left;
+	width:320px;
+	margin-top:5px;
+	color:#000;
+	background-color:#EDF2F7;
+	cursor:default;
+	border:1px solid gray;
+	font:12px Arial, sans-serif;
+}
+.jx-picker.jx-picker-border {
+	padding:5px 5px 5px 5px;
+	border-radius:4px;
+	border:0;
+	box-shadow:1px 1px 6px gray;
+}
+.jx-picker .jx-picker-content {
+	display:block;
+	overflow:auto;
+	background-color:#FFFFFF;
+}
+.jx-picker .jx-picker-content ul {
+	display:block;
+	overflow:auto;
+	padding:0;
+	margin:0;
+}
+.jx-picker .jx-picker-content ul li {
+	display:block;
+	overflow:auto;
+	margin:1px;
+	padding:5px;
+	__background-color:gray;
+	cursor:pointer;
+}
+.jx-picker .jx-picker-content ul li.jx-picker-item-selected {
+	color:#FFFFFF;
+	background-color:#4E88E0;
+}
+.jx-picker .jx-picker-content ul li:hover {
+	background-color:#ADBBC7;
+}
+.jx-picker .jx-picker-content ul li span {
+	font-size:80%;
+	color:gray;
+	float:right;
+	line-height:100%;
+	vertical-align:middle;
+}
+
+
+.jx-picker button {
+	margin:1px 0;
+	padding:2px 1px;
+	overflow:auto;
+}
+.jx-picker-foot {
+	padding-top:2px;
+}
+.jx-picker-foot button {
+	float:right;
+}
+
+
+/* Change padding for item icon */
+.jx-geowhisper .jx-picker-items ul li {
+	background-repeat:no-repeat;
+	background-position:4px 5px;
+	padding-left:20px;
+}
+
+li.jx-geowhisper-item-region {
+	background-image:url('../images/locality-icon.png');
+}
+li.jx-geowhisper-item-locality {
+	background-image:url('../images/locality-icon.png');
+}
+li.jx-geowhisper-item-hotel {
+	background-image:url('../images/locality-icon.png');
+}
+
+
+
+
+
+.goog-popupdatepicker.goog-date-picker {
+	position:absolute;
+}
+
+.goog-date-picker th {
+	text-align:center;
+}
+
+.goog-date-picker td {
+	text-align:center;
+	vertical-align:middle;
+	padding:1px 3px;
+}
+
+
+.goog-date-picker-menu {
+	position:absolute;
+
+	xoverflow:auto;
+	xdisplay:block;
+	
+	background:threedface;
+	border:1px solid gray;
+	-moz-user-focus:normal;
+	z-index:1;
+	outline:none;
+	
+	width:auto;
+}
+
+.goog-date-picker-menu ul {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+
+.goog-date-picker-menu ul li {
+	cursor:default;
+	padding:4px;
+}
+.goog-date-picker-menu ul li:hover {
+	background:#ccc;
+}
+
+.goog-date-picker-menu-selected {
+	background:#ccf;
+}
+
+.goog-date-picker th {
+	font-size:.9em;
+}
+
+.goog-date-picker td div {
+	float:left;
+}
+
+.goog-date-picker button {
+	xpadding:0px;
+	margin:1px 0;
+	padding:2px 1px;
+	xborder:0;
+	xcolor:#20c;
+	xfont-weight:bold;
+	xbackground:transparent;
+}
+
+.goog-date-picker-date {
+	background:#fff;
+}
+
+.goog-date-picker-week,
+.goog-date-picker-wday {
+	xpadding:1px 3px;
+	xborder:0;
+	xborder-color:#a2bbdd;
+	xborder-style:solid;
+}
+
+td.goog-date-picker-date,
+th.goog-date-picker-week,
+th.goog-date-picker-wday {
+	width:30px;
+	line-height:30px;
+}
+td.goog-date-picker-date:hover {
+	background-color:#ADBBC7;
+	xborder-radius:4px;
+	cursor:pointer;
+}
+
+.goog-date-picker-week {
+	xborder-right-width:1px;
+}
+th.goog-date-picker-week {
+	font-size:80%;
+}
+
+.goog-date-picker-wday {
+	xborder-bottom-width:1px;
+}
+th.goog-date-picker-wday {
+	xborder-bottom-width:1px;
+	color:#888;
+}
+
+.goog-date-picker-head td {
+	text-align:center;
+}
+
+td.goog-date-picker-today-cont {
+	text-align:center;
+}
+
+td.goog-date-picker-none-cont {
+	text-align:center;
+}
+
+.goog-date-picker-month {
+	min-width:11ex;
+	white-space:nowrap;
+}
+
+.goog-date-picker-year {
+	min-width:6ex;
+	white-space:nowrap;
+}
+
+.goog-date-picker-monthyear,
+td.goog-date-picker-monthyear {
+	white-space:nowrap;
+	font-size:120%;
+	font-weight:bold;
+}
+
+.goog-date-picker table {
+	border-collapse:collapse;
+}
+
+.goog-date-picker-other-month {
+	color:#888;
+}
+
+.goog-date-picker-wkend-start,
+.goog-date-picker-wkend-end {
+	background:#eee;
+}
+
+td.goog-date-picker-selected {
+	background:#c3d9ff;
+}
+
+.goog-date-picker-today {
+	background:#9ab;
+	font-weight:bold !important;
+	border-color:#246 #9bd #9bd #246;
+	color:#fff;
+	xborder-radius:10px;
+}
+
+/**/
+
+.goog-popupdatepicker.goog-date-picker {
+	position:absolute;
+}
+.goog-popupdatepicker {
+	position:absolute;
+}
+
+
+.goog-date-picker,
+.goog-date-picker th,
+.goog-date-picker td {
+	font:12px Arial, sans-serif;
+}
+.goog-date-picker th,
+.goog-date-picker td {
+	text-align:center;
+	vertical-align:middle;
+}
+.goog-date-picker {
+	-moz-user-focus:normal;
+	-moz-user-select:none;
+	position:relative;
+	float:left;
+	padding:6px;
+	margin-top:5px;
+	color:#000;
+	background-color:#EDF2F7;
+	cursor:default;
+	border-radius:4px;
+	box-shadow:1px 1px 6px gray;
+}
+.goog-date-picker .goog-date-picker-calendar {
+	overflow:auto;
+}
+.goog-date-picker .goog-date-picker-col {
+	float:left;
+/*	width:272px;*/
+	overflow:auto;
+}
+.goog-date-picker .goog-date-picker-col.goog-date-picker-additional-month {
+	margin-left:20px;
+}
+.goog-date-picker .goog-date-picker-head {
+	overflow:auto;
+	padding:0;
+}
+.goog-date-picker .goog-date-picker-head span {
+	display:block;
+	padding:5px 30px;
+	text-align:center;
+	white-space:nowrap;
+	font-size:120%;
+	font-weight:bold;
+}
+.goog-date-picker .goog-date-picker-btn {
+}
+.goog-date-picker .goog-date-picker-btn.goog-date-picker-previousMonth {
+	float:left;
+}
+.goog-date-picker .goog-date-picker-btn.goog-date-picker-nextMonth {
+	float:right;
+}
+.goog-date-picker .goog-date-picker-btn.goog-date-picker-today {
+	float:left;
+}
+.goog-date-picker .goog-date-picker-btn.goog-date-picker-none {
+	float:right;
+}
+.goog-date-picker .goog-date-picker-btn.goog-date-picker-done {
+	float:right;
+}
+.goog-date-picker table {
+	display:inline-block;
+	border-collapse:collapse;
+	padding:8px 0 0 0;
+}
+.goog-date-picker table th,
+.goog-date-picker table td {
+	padding:0;
+	margin:0;
+	width:34px;
+	height:32px;
+}
+.goog-date-picker table th {
+	font-size:80%;
+}
+.goog-date-picker thead th {
+	color:#808080;
+}
+.goog-date-picker tbody td {
+	background-color:#fff;
+	border:1px solid #fff;
+}
+.goog-date-picker tbody td.goog-date-picker-wkend-start,
+.goog-date-picker tbody td.goog-date-picker-wkend-end {
+	background-color:#eee;
+	font-weight:bold;
+}
+.goog-date-picker tbody td.goog-date-picker-other-month {
+	color:#888;
+}
+.goog-date-picker tbody td.goog-date-picker-out {
+	color:#C0C0C0;
+	background-color:#F0F0F0;
+}
+.goog-date-picker tbody td.goog-date-picker-date {
+	cursor:pointer;
+}
+.goog-date-picker tbody td.goog-date-picker-date:hover {
+	background-color:#adbbc7;
+}
+.goog-date-picker tbody td.goog-date-picker-today {
+	background:#9ab;
+	font-weight:bold !important;
+	border-color:#246 #9bd #9bd #246;
+	color:#fff;
+}
+.goog-date-picker tbody td.goog-date-picker-hint {
+	cursor:help;
+}
+.goog-date-picker tbody td.goog-date-picker-selected {
+/*	background:#c3d9ff;*/
+	background:#4E88E0;
+	color:#fff;
+	font-weight:bold;
+}
+.goog-date-picker tbody td.goog-date-picker-other-month.goog-date-picker-selected {
+	background:#ABC7F1;
+}
+.goog-date-picker tbody td.goog-date-picker-hint {
+	/*background-image:url(data:image/gif;base64,R0lGODlhBAAEAIMAAAAAAMwAAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAMAAAMALAAAAAAEAAQAAAQJMEgxRxBj4BwBADs=);
+	background-image: url(data:image/gif;base64,R0lGODlhBQAGAIMAAAAAAJmZmf///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAMAAAMALAAAAAAFAAYAAAQKMMgw6KgXX5u7jQA7);
+	background-repeat:no-repeat;
+	background-position:4px 4px;
+	*/
+	text-decoration:underline;
+}
+.goog-date-picker .goog-date-picker-foot {
+	display:block;
+	overflow:auto;
+	padding:6px 0 0 0;
+}
+
+
+/*
+.goog-date-picker tbody td.goog-date-picker-selected {
+	background:#F9670D;
+}
+.goog-date-picker tbody td.goog-date-picker-selected span {
+	display:block;
+	height:28px;
+	line-height:28px;
+	border:1px red solid;
+}
+*/
+
+/*********/
+
+
+
+/**/
